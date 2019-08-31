@@ -1,0 +1,162 @@
+/*
+* @Author: hp
+* @Date:   2019-08-16 10:14:47
+* @Last Modified by:   hp
+* @Last Modified time: 2019-08-23 09:18:13
+*/
+body{
+	min-width: 1260px;
+}
+.banner2{
+	margin-top: 75px;
+	background-image: url('../images/imagesindex/loginBg.jpg');
+	width: 100%;
+	overflow: hidden;
+	background-position: center top;
+}
+.modle{
+	width: 500px;
+	height: 560px;
+	background-color: white;
+    /* margin: 55px 860px; */
+    border-radius: 4px;
+    position: relative;
+    text-align: center;
+    float: right;
+    margin: 55px 170px;
+
+}
+.weixin{
+	background-image: url('../images/imagesindex/weixin_icon.png');
+	width: 156px;
+	height: 96px;
+	display: inline-block;
+	top: 0px;
+	right: 0px;
+	position: absolute;
+	cursor: pointer;
+}
+.modle h2{
+   text-align: center;
+   line-height: 120px;
+   font-weight: 500;
+}
+.form2{
+   margin: 0px 20px 20px;
+   font-size: 13px;
+}
+.user{
+	margin-bottom: 12px;
+}
+.user,.pass{
+	width: 342px;
+	height: 39px;
+	outline: none;
+	border-style: none;
+	border: 1px solid #9eb2cd;
+	box-shadow: 1px 1px 1px 1px #eee inset;
+	border-radius: 4px;
+	padding-left: 8px;
+	box-sizing: border-box;
+}
+.form2 label{
+	text-align: center;
+	font-size: 14px;
+	color: #888;
+	margin-left: 58px;
+    line-height: 42px
+}
+.form2 label span{
+	margin-left: 90px;
+}
+ .denglu{
+ 	width: 342px;
+	height: 48px;
+	background-color:#1ebcf0 ;
+	text-align: center;
+	color: #fff;
+	margin: 0px 88px;
+	outline: none;
+	border-style: none;
+	border-radius: 4px;
+	margin-top: 5px;
+ }
+ .modle p{
+ 	text-align: center;
+ 	line-height: 40px;
+ 	font-size: 13px;
+ }
+ .modle p span{
+ 	color:#1ebcf0 ;
+ 	cursor: pointer;
+ }
+ .modle p span:hover{
+ 	color: #df2082;
+ }
+  .modle ul{
+  	margin-left: 70px;
+  }
+ .modle ul li{
+ 	text-align: center;
+ }
+ .modle ul li i{
+ 	width: 72px;
+ 	height: 95px;
+ 	background-image: url('../images/imagesindex/fuqian.png');
+ 	display: inline-block;
+ 	background-repeat: no-repeat;
+ 	margin: 10px;
+ }
+ .modle ul li i:nth-child(1){
+   background-position: 1px 0px;
+ }
+  .modle ul li i:nth-child(2){
+   background-position: -92px 0px;
+ }
+  .modle ul li i:nth-child(3){
+   background-position: -186px 0px;
+ }
+  .modle ul li i:nth-child(4){
+   background-position: -279px 0px;
+ }
+ .modle:nth-child(2){
+ 	display: none;
+ }
+  .modle .erweima{
+  	/* margin-left: 105px; */
+  }
+  .modle .erweima img{
+  	width: 282px;
+  	height: 282px;
+  }
+  .modle a{
+  	color: #1ebcf0;
+  }
+  .modle a:hover{
+  	color: #df2082;
+  }
+  .weixin1{
+	background-image: url('../images/imagesindex/username_icon.png');
+	width: 156px;
+	height: 96px;
+	display: inline-block;
+	top: 0px;
+	right: 0px;
+	position: absolute;
+	cursor: pointer;
+}
+.footer{
+	overflow: hidden;
+}
+.footer2{
+    margin-top: 27px;
+}
+.footer2 ul li:nth-child(1) a{
+    border-right: 1px solid #ccc;
+    font-size: 14px;
+    color: #000;
+    padding-right: 9px;
+}
+.name:hover{
+	color: #dd137b;
+}
